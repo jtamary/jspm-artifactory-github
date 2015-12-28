@@ -1,0 +1,33 @@
+{
+name: "jspm-artifactory-github",
+version: "0.0.1",
+description: "jspm Artifactory GitHub endpoint",
+main: "artifactory.js",
+scripts: {
+test: "echo "Error: no test specified" && exit 1"
+},
+repository: {
+type: "git",
+url: "git@github.com:jtamary/jspm-artifactory-github.git"
+},
+author: "",
+license: "MIT",
+bugs: {
+url: "https://github.com/jtamary/jspm-artifactory-github/issues"
+},
+dependencies: {
+expand-tilde: "^1.2.0",
+graceful-fs: "^3.0.6",
+mkdirp: "~0.5.0",
+request: "~2.53.0",
+rimraf: "~2.3.2",
+rsvp: "^3.0.17",
+semver: "^5.0.1",
+tar: "^2.1.1",
+which: "^1.0.9",
+yauzl: "^2.3.1"
+},
+homepage: "https://github.com/jtamary/jspm-artifactory-github",
+devDependencies: {
+}
+}
