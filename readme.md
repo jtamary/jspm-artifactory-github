@@ -1,6 +1,6 @@
 jspm artifactory github plugin
 ======
-This is plugin for JSPM, that retrieves Github packages via Artifactory.
+This is a plugin for JSPM, that retrieves Github packages via Artifactory.
 It solves the problem that Artifactory can cache Github repositories but does not expose Github's API.
 
 
